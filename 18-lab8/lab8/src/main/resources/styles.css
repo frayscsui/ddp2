@@ -1,0 +1,32 @@
+/** Inisiasi 3 font tambahan untuk styling */
+@font-face {
+    font-family: "Space Mono";
+    src: url("fonts/SpaceMono-Bold.ttf");
+}
+@font-face {
+    font-family: "Gabarito Bold";
+    src: url("fonts/Gabarito-Bold.ttf");
+}
+@font-face {
+    font-family: "Gabarito";
+    src: url("fonts/Gabarito-Regular.ttf");
+}
+
+.label, .text {
+    -fx-font-family: "Gabarito";
+    font-family: "Gabarito";
+}
+
+#label {
+    -fx-font-family: "Gabarito Bold";
+    font-family: "Gabarito Bold";
+    -fx-font-size: 15;
+    font-size: 15;
+}
+
+#number {
+    -fx-font-family: "Space Mono";
+    font-family: "Space Mono";
+    -fx-font-size: 20;
+    font-size: 20;
+}
